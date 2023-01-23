@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../public/fonts/FontsFree-Net-ClashDisplay-Variable.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../public/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  background-color: #0c102d;
+  background-image: url("../public/bg\ image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 150px;
+  line-height: 120%;
+  color: white;
+}
+
+h2 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  color: white;
+}
+
+h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: white;
+}
+
+h4 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: white;
+}
+
+h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: white;
+}
+
+section {
+  margin-bottom: 189px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[placeholder]:focus {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  position: relative;
+  text-indent: 24px;
+
+  color: white;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input[type="text"],
+[type="number"],
+[type="email"] {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  position: relative;
+  text-indent: 24px;
+
+  color: white;
+}
+
+input:invalid {
+  background: rgba(255, 165, 165, 0.2);
+}
+
+textarea::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: white;
+}
+
+textarea {
+  pointer-events: none;
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}

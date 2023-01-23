@@ -1,0 +1,1025 @@
+.main {
+  background-image: url("../public/background.png");
+  background-size: 100%;
+  padding-bottom: 189px;
+}
+
+.outerBlock {
+  margin: 0 auto;
+  max-width: 1224px;
+  padding-top: 47.5px;
+}
+
+/* Headers style start */
+
+.headerList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.headerListItem {
+  margin-left: 48px;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Headers style end */
+
+/* Banner section style start */
+
+.bannerTop {
+  margin-top: 116px;
+  display: inline-block;
+}
+
+.h1 {
+  display: inline-block;
+}
+
+.bannerP {
+  width: 359px;
+  display: inline-block;
+  margin-left: 57px;
+}
+
+.bannerBottom {
+  display: flex;
+  align-items: center;
+}
+
+.bannerButton {
+  margin-right: 24px;
+  width: 288px;
+  height: 72px;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0a1482;
+
+  background: linear-gradient(180deg, #1ff2ff 0%, #27f9e5 52.66%, #2fffcd 100%);
+}
+
+.bannerButton:hover {
+  color: rgba(59, 72, 208, 1);
+  cursor: pointer;
+}
+
+.bannerButton:active {
+  color: white;
+}
+
+.bannerButton:disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.bannerH3 {
+  text-align: right;
+}
+
+/* Banner section style end */
+
+/* About Us section style start */
+
+.aboutUsH2 {
+  text-align: center;
+}
+
+.aboutUsDiv {
+  margin-top: 56px;
+  text-align: center;
+  display: flex;
+}
+
+.aboutUsMentorsDiv {
+  position: relative;
+  width: 606px;
+  height: 483px;
+  display: inline-block;
+}
+
+.aboutUsMentorsLineImage {
+  width: 394px;
+  height: 156.59px;
+  display: block;
+  position: absolute;
+  right: 106px;
+  margin-top: 11px;
+}
+
+.mentorArticleText {
+  text-align: left;
+}
+.mentorArticleTextP {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.mentor1Article {
+  width: 188px;
+  height: 277px;
+  position: relative;
+  top: 51px;
+  right: 21px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.mentor2Article {
+  width: 188px;
+  height: 277px;
+  margin-top: 117px;
+  display: inline-block;
+}
+
+.mentor3Article {
+  width: 188px;
+  height: 277px;
+  position: relative;
+  top: 51px;
+  left: 21px;
+  display: inline-block;
+}
+
+.aboutUsPDiv {
+  width: 486px;
+  display: inline-block;
+  margin-left: 17px;
+  margin-top: 122px;
+}
+
+.aboutUsP {
+  text-align: left;
+}
+
+/* About Us section style end */
+
+/* Programming technologies section style start */
+
+.progTechDiv {
+  width: 800px;
+  height: 516px;
+  margin: 0 auto;
+}
+
+.progTechHeadDiv {
+  width: 543px;
+  height: 232px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.progTechHeadPDiv {
+  width: 432px;
+  height: 44px;
+  margin: 16px auto 0 auto;
+}
+
+.progTechCardsDiv {
+  width: 800px;
+  height: 230px;
+  margin-top: 54px;
+}
+
+.progTechCardsList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.progTechCardsListItem {
+  margin-right: 24px;
+}
+
+.progTechCardsItemDiv {
+  width: 182px;
+  height: 230px;
+  position: relative;
+}
+
+.progTechCardsListItem:last-child {
+  margin: 0;
+}
+
+.progTechCardsItemSubtract {
+  position: absolute;
+}
+
+.progTechCardsItemImage {
+  position: relative;
+  z-index: 1000;
+  margin-top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.progTechCardsItemText {
+  position: relative;
+  z-index: 1000;
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* Programming technologies section style end */
+
+/* Steps section style start */
+
+.stepsHead {
+  text-align: center;
+}
+
+.stepsDiv {
+  width: 1213px;
+  height: 1096px;
+  margin-top: 56px;
+  position: relative;
+}
+
+.stepsLine {
+  position: absolute;
+  right: 604.5px;
+  top: 108px;
+}
+
+.stepLEFTDiv {
+  width: 619px;
+  height: 228px;
+  position: relative;
+}
+
+.stepLEFTDivArrowImg {
+  width: 104px;
+  height: 24px;
+  float: right;
+  margin-top: 102px;
+}
+
+.stepLEFTOuterDiv {
+  width: 491px;
+  height: 228px;
+  position: relative;
+}
+
+.stepLEFTOuterBorder {
+  float: right;
+}
+
+.stepLEFTInnerDiv {
+  width: 475px;
+  height: 191px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.stepLEFTInnerDiv::before {
+  width: 475px;
+  height: 191px;
+  aspect-ratio: 1;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  padding: 1px;
+  border-radius: 8px;
+  background: linear-gradient(
+    to bottom,
+    rgba(21, 191, 253, 0.7),
+    rgba(156, 55, 253, 0.7)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.stepLEFTP {
+  width: 408px;
+  height: 44px;
+  color: #a2cbfb;
+  margin-left: 24px;
+}
+
+.stepLEFTH3 {
+  margin: 16px 0 16px 24px;
+}
+
+.stepLEFTH4 {
+  margin: 24px 0 0 24px;
+}
+
+.stepRIGHTDiv {
+  width: 619px;
+  height: 228px;
+  position: absolute;
+  right: 0;
+}
+
+.stepRIGHTDivArrowImg {
+  width: 94px;
+  height: 24px;
+  float: left;
+  margin-top: 102px;
+}
+
+.stepRIGHTOuterDiv {
+  width: 491px;
+  height: 228px;
+  position: relative;
+  margin-left: auto;
+}
+
+.stepRIGHTInnerDiv {
+  width: 475px;
+  height: 191px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  right: 0;
+
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.stepRIGHTInnerDiv::before {
+  width: 475px;
+  height: 191px;
+  aspect-ratio: 1;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  padding: 1px;
+  border-radius: 8px;
+  background: linear-gradient(
+    to bottom,
+    rgba(21, 191, 253, 0.7),
+    rgba(156, 55, 253, 0.7)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.step2 {
+  position: absolute;
+  top: 124px;
+  right: 0;
+}
+
+.step3 {
+  position: absolute;
+  top: 372px;
+}
+
+.step4 {
+  position: absolute;
+  top: 496px;
+  right: 0;
+}
+
+.step5 {
+  position: absolute;
+  top: 744px;
+}
+
+.step6 {
+  position: absolute;
+  top: 868px;
+  right: 0;
+}
+
+/* Steps section style end */
+
+/* questions section style start */
+
+.questionsContentListTextArea {
+  width: 606px;
+  margin-top: 16px;
+  background-color: transparent;
+
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+}
+
+.emptyDiv {
+  height: 24px;
+  width: 703px;
+}
+
+.questionsDiv {
+  width: 1223px;
+  min-height: 738px;
+}
+
+.questionsHead {
+  width: 641px;
+  height: 172px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.questionsContentDiv {
+  width: 1223px;
+  min-height: 510px;
+  margin-top: 56px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.questionsContentSignDiv {
+  width: 496px;
+  height: 510px;
+  position: absolute;
+}
+
+.questionsContentSignSVG {
+  position: absolute;
+  bottom: 0px;
+  left: 76px;
+  height: 510px;
+
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.025))
+    drop-shadow(0px 0px 10px rgba(107, 85, 216, 0.3))
+    drop-shadow(0px 0px 10px rgba(107, 85, 216, 0.3))
+    drop-shadow(0px 0px 10px rgba(107, 85, 216, 0.3))
+    drop-shadow(0px 0px 10px rgba(107, 85, 216, 0.3))
+    drop-shadow(0px 0px 10px rgba(107, 85, 216, 0.3));
+}
+
+.questionsContentSignText {
+  width: 496px;
+  height: 44px;
+  white-space: pre;
+}
+
+.questionsContentListDiv {
+  width: 703px;
+  min-height: 510px;
+  position: relative;
+  float: right;
+}
+
+.questionsContentListFirstItem {
+  width: 703px;
+  min-height: 166px;
+  background-image: url("../public/questions/SubtractQ.svg");
+  position: relative;
+}
+
+.questionsContentListFirstItemButton {
+  position: absolute;
+  top: 14px;
+  right: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.questionsContentListSecondItemButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.questionsContentListFirstItemText {
+  width: 606px;
+  height: 111px;
+
+  position: relative;
+  top: 27.5px;
+  left: 24px;
+}
+
+.questionsContentListSecondItem {
+  width: 703px;
+  min-height: 62px;
+  background-image: url("../public/questions/SubtractQ2.svg");
+}
+
+.questionsContentListSecondItemText {
+  width: 663px;
+  height: 29px;
+  position: relative;
+  top: 16.5px;
+  left: 24px;
+}
+
+/* questions section style end */
+
+/* Review section style start */
+
+.reviewDiv {
+  width: 1224px;
+  height: 612px;
+  text-align: center;
+}
+
+.reviewContent {
+  width: 1224px;
+  height: 478px;
+  margin-top: 48px;
+  position: relative;
+}
+
+.reviewContentH4 {
+  position: absolute;
+  top: 124px;
+}
+
+.reviewContentP {
+  position: absolute;
+  width: 392px;
+  height: 110px;
+  top: 170px;
+  text-align: left;
+}
+
+.reviewContentImg1Div {
+  position: absolute;
+  width: 392px;
+  height: 422px;
+  left: 415px;
+  top: 56px;
+  border-radius: 16px;
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 80% 100%, 0 100%);
+  background-repeat: no-repeat;
+}
+
+.reviewContentBorderImg1Div {
+  position: absolute;
+  width: 394px;
+  height: 424px;
+  left: 414px;
+  top: 55px;
+  border-radius: 16px;
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 80% 100%, 0 100%);
+  background: linear-gradient(
+    to top,
+    rgba(21, 191, 253, 0.7),
+    rgba(156, 55, 253, 0.7)
+  );
+}
+
+.reviewContentImg2Div {
+  position: absolute;
+  width: 184px;
+  height: 422px;
+  left: 831px;
+  top: 56px;
+  border-radius: 16px;
+
+  clip-path: polygon(0 0, 100% 0%, 100% 92%, 84% 100%, 0 100%);
+  background-position: 40%;
+  background-repeat: no-repeat;
+}
+
+.reviewContentBorderImg2Div {
+  position: absolute;
+  width: 186px;
+  height: 424px;
+  left: 830px;
+  top: 55px;
+  border-radius: 16px;
+  background: linear-gradient(
+    to top,
+    rgba(21, 191, 253, 0.7),
+    rgba(156, 55, 253, 0.7)
+  );
+  clip-path: polygon(0 0, 100% 0%, 100% 92%, 84% 100%, 0 100%);
+}
+
+.reviewContentImg3Div {
+  position: absolute;
+  width: 184px;
+  height: 422px;
+  left: 1039px;
+  top: 56px;
+  border-radius: 16px;
+
+  clip-path: polygon(0 0, 100% 0%, 100% 92%, 84% 100%, 0 100%);
+  background-position: 40%;
+  background-repeat: no-repeat;
+}
+
+.reviewContentBorderImg3Div {
+  position: absolute;
+  width: 186px;
+  height: 424px;
+  left: 1038px;
+  top: 55px;
+  border-radius: 16px;
+  background: linear-gradient(
+    to top,
+    rgba(21, 191, 253, 0.7),
+    rgba(156, 55, 253, 0.7)
+  );
+  clip-path: polygon(0 0, 100% 0%, 100% 92%, 84% 100%, 0 100%);
+}
+
+.reviewContentTextImg {
+  position: absolute;
+  width: 41px;
+  height: 29px;
+  left: 415px;
+  top: 6px;
+}
+
+.buttonArrowLeft {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1120px;
+  top: 0px;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonArrowRight {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1184px;
+  top: 0px;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Review section style end */
+
+/* Gallery section style start */
+
+.galleryDiv {
+  width: 1224px;
+  height: 808px;
+  text-align: center;
+  position: relative;
+}
+
+.galleryP1 {
+  width: 288px;
+  height: 110px;
+  position: absolute;
+  top: 180px;
+  text-align: left;
+}
+
+.galleryP2 {
+  width: 868px;
+  height: 88px;
+  position: absolute;
+  top: 707px;
+  left: 312px;
+  text-align: left;
+}
+
+.galleryImg1 {
+  width: 600px;
+  height: 434px;
+  position: absolute;
+  top: 134px;
+  left: 312px;
+  border-radius: 16px;
+  background-position: center;
+}
+
+.galleryImg2 {
+  width: 288px;
+  height: 434px;
+  position: absolute;
+  top: 374px;
+  border-radius: 16px;
+}
+
+.galleryImg3 {
+  width: 288px;
+  height: 201px;
+  position: absolute;
+  top: 359px;
+  right: 0;
+  border-radius: 16px;
+}
+
+/* Gallery section style end */
+
+/* Contact section style start */
+
+.contactSubstrateDiv {
+  width: 1224px;
+  min-height: 598px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.contactSubstrateDiv::before {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  padding: 1px;
+  border-radius: 20px;
+  background: linear-gradient(
+    to bottom,
+    rgba(21, 191, 253, 0.7),
+    rgba(156, 55, 253, 0.7)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.contactDiv {
+  width: 630px;
+  min-height: 486px;
+  margin: 56px 312px;
+  display: inline-block;
+}
+
+.contactDivText {
+  width: 630px;
+  height: 124px;
+  text-align: center;
+}
+
+.contactDivTextP {
+  margin-top: 16px;
+}
+
+.contactDivForm {
+  width: 497px;
+  min-height: 338px;
+  margin-left: 66.5px;
+  margin-top: 24px;
+}
+
+.contactDivInput {
+  width: 493px;
+  height: 70px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.contactDivInputContainer {
+  width: 493px;
+  height: 70px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.contactDivInputContainer::before {
+  width: 493px;
+  height: 70px;
+  aspect-ratio: 1;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  padding: 1px;
+  border-radius: 8px;
+  background: linear-gradient(
+    to bottom,
+    rgba(21, 191, 253, 0.7),
+    rgba(156, 55, 253, 0.7)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.contactDivInput::placeholder {
+  color: #a2cbfb;
+}
+
+.contactDivInputContainerError {
+  width: 493px;
+  height: 70px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.contactDivInputContainerError::before {
+  width: 493px;
+  height: 70px;
+  aspect-ratio: 1;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  padding: 1px;
+  border-radius: 8px;
+  background-color: rgba(253, 70, 70, 1);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.contactDivPError {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.contactDivInputError {
+  width: 493px;
+  height: 70px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background: rgba(255, 165, 165, 0.2);
+  border-radius: 8px;
+}
+
+.contactDivInputError::placeholder {
+  color: white;
+}
+
+.contactDivError {
+  width: 493px;
+  height: 96px;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.contactDivButton {
+  width: 497px;
+  height: 72px;
+  background: linear-gradient(180deg, #1ff2ff 0%, #27f9e5 52.66%, #2fffcd 100%);
+  border-radius: 8px;
+  border-color: rgb(255, 255, 255, 0);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0a1482;
+
+  margin-top: 8px;
+}
+
+.contactDivButton:hover {
+  color: rgba(59, 72, 208, 1);
+  cursor: pointer;
+}
+
+.contactDivButton:active {
+  color: white;
+}
+
+.contactDivButton:disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+/* Contact section style end */
+
+/* Footer section style start */
+
+.footer {
+  height: 195px;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  border-top: 1px solid rgba(21, 191, 253, 0.7);
+
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.footerDiv {
+  width: 1224px;
+  height: 195px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footerLogo {
+  width: 236px;
+  height: 95px;
+  position: absolute;
+  top: 33px;
+}
+
+.footerLogoP {
+  position: absolute;
+  bottom: 0;
+}
+
+.footerCompany {
+  width: 255px;
+  height: 128px;
+  position: absolute;
+  left: 424px;
+  top: 33px;
+}
+
+.footerList {
+  width: 255px;
+  height: 83px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footerList1 {
+  width: 62px;
+  height: 83px;
+  display: inline-block;
+}
+
+.footerList2 {
+  width: 48px;
+  height: 50px;
+  margin-left: 145px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footerListPwithMargin {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 16px;
+
+  color: #ffffff;
+}
+
+.footerListP {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.socialMedia {
+  width: 155px;
+  height: 69px;
+  position: absolute;
+  top: 33px;
+  left: 844px;
+}
+
+.socialMediaIcons {
+  width: 155px;
+  height: 24px;
+
+  margin-top: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Footer section style end */
